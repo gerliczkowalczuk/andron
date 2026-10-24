@@ -1,0 +1,15 @@
+[package]
+name = "andron"
+version = "0.1.0"
+edition = "2024"
+authors = ["Oskar Gerlicz-Kowalczuk <oskar@gerlicz.space>"]
+description = "Ultra-lightweight Android compatibility & translation runtime for Linux (low-CPU, zero-overhead Wayland/IPC)"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/gerliczkowalczuk/andron"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+nix = { version = "0.29", features = ["fs", "process", "sched", "mount", "uio", "feature"] }
+log = "0.4"
+env_logger = "0.11"
+zip = "2.2"
