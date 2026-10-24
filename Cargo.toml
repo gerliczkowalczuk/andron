@@ -1,6 +1,6 @@
 [package]
 name = "andron"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 authors = ["Oskar Gerlicz-Kowalczuk <oskar@gerlicz.space>"]
 description = "Ultra-lightweight Android compatibility & translation runtime for Linux (low-CPU, zero-overhead Wayland/IPC)"
